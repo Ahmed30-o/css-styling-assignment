@@ -1,0 +1,70 @@
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Commented out li styling */
+/*
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+*/
+
+nav {
+  display: inline-block;
+  width: 80%;
+  background-color: #e0f7fa;
+  padding: 10px;
+}
+
+nav img {
+  width: 10%;
+  vertical-align: middle;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: start;
+  row-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+/* Flex Layout */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flex img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
