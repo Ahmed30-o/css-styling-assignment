@@ -1,0 +1,10 @@
+css-styling-assignment/
+│
+├── index.html
+├── parks.html
+├── about.html
+├── style.css
+└── images/
+    ├── logo.png       ← placeholder logo
+    ├── park1.jpg      ← sample park photo
+    └── park2.jpg      ← another park photo
